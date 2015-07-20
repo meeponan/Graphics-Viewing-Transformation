@@ -1,0 +1,39 @@
+
+<!-- saved from url=(0082)http://www.cs.fsu.edu/~liux/courses/graphics-2014/assignments/lab2/lab2_scene2.ssd -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=GBK"></head><body><pre style="word-wrap: break-word; white-space: pre-wrap;">screen 800 600 255 255 255  
+#Wireframe of a green cube  
+color 0 255 0  
+eye 11. 1.750 10.50  
+gaze -0.750 0.350 -1.0  
+upvector -1  0  0  
+ortho 5.6 4.2 0 30  
+#perspective 25 -1 -4  
+floor 1 -5 10 -5 20  
+axis 4 10  
+identity  
+translate 0.0 1.50 0.0  
+rotate 0 1 0 0   
+scale 2 2 2  
+mesh colorcube.off 4
+  
+identity  
+translate 0.0 -1.50 0.0  
+scale 2 2 2  
+color 239   208   207  
+mesh person_lab2.off 2  
+color 158   118    65  
+  
+identity  
+translate 0.0 -1 0  
+scale 2 2 2  
+mesh table_lab2.off 3  
+color 255     0     0  
+translate 0 -10.250 4.0  
+mesh sphere_lab2.off 2  
+identity  
+color 72   118   255  
+translate 0 -1 0  
+scale 2 2 2  
+mesh teddy_lab2.off  2
+save lab2_scene2.ppm  
+</pre><div><object id="ClCache" click="sendMsg" host="" width="0" height="0"></object></div></body></html>
